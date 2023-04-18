@@ -54,7 +54,7 @@ while isContinue {
         case .gradeDelete:
             setGrade(.delete)
         case .averageGrade:
-            break
+            getAverageGrade()
         case .exit:
             isContinue = false
             print("프로그램을 종료합니다...")
